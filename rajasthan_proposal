@@ -1,0 +1,11 @@
+Tourists, visitors and general public do not get any platform to give their views or complaints about their experience with the Rajasthan tourism, transportation, foods, market and other services related to government. Most of their queries and feedbacks are not conveyed to the concerned authorities, and hence they fail to take the required action. Moreover, deluge of feedbacks/queries on their official sites create more confusion since they remain unfiltered most of the time. Due to this unorganised approach, the authorities are reluctant to acknowledge them.
+
+soln:
+The proposed solution consists of two GUIs:-
+1. User Portal, which will intake the queries from the public in the form of text or an optional Speech feature depending on their ease. The entered data will be stored in Hadoop HDFS for efficient processing. Applying Natural Language Processing using various python toolkits and libraries to filter out the queries and then decide the authority concerned with the problem on the basis of the filtered result. Moreover, it would return back the solution to the users (if present in the database else the query will be sent to the concerned ministry). Feedbacks of the users will be classified as negative or positive and will be sent to the concerned authorities. 
+2. Ministry Portal, which will show graphs indicating the most alarming issue registered by the users. This is done to ensure that problems are resolved in the decreasing order of priorites.
+
+The proposed solution is scalable as it uses Hadoop Distributed File System for storage and mapreduce for processing. Only genuine feedbacks will be taken discarding the posssibility of spamming.
+There is no third party involvement in the entire process.
+
+
